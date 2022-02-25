@@ -10,7 +10,7 @@ import javax.xml.crypto.Data;
 public class Main {
     public static void main(String[] args) {
     ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
-    Database mySqlDatabase = context.getBean("mySql", MySqlDatabase.class);
+//    Database mySqlDatabase = context.getBean("mySql", MySqlDatabase.class);
     User user = context.getBean("user", User.class);
     System.out.println(user.getDatabase());
 //  System.out.println("hi "+ mySqlDatabase.getClass());
