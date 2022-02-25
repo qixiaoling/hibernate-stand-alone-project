@@ -13,7 +13,8 @@ public class Main {
     Database mySqlDatabase = context.getBean("mySql", MySqlDatabase.class);
     User user = context.getBean("user", User.class);
     System.out.println(user.getDatabase());
-    System.out.println("hi "+ mySqlDatabase.getClass());
+//  System.out.println("hi "+ mySqlDatabase.getClass());
+
 
 
 
